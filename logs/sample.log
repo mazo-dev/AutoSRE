@@ -1,0 +1,25 @@
+[2025-04-13 12:03:22] ERROR: Service XYZ failed due to OOM
+[2025-04-13 12:04:22] INFO: Auto-restart triggered
+2025-04-21 10:45:23,112 INFO  [com.example.auth.LoginService] - Starting authentication process for user 'john.doe'
+2025-04-21 10:45:23,145 DEBUG [com.example.auth.DatabaseConnector] - Fetching user credentials from database
+2025-04-21 10:45:23,172 ERROR [com.example.auth.LoginService] - Unexpected error during authentication
+java.lang.NullPointerException: Cannot invoke "String.length()" because "username" is null
+    at com.example.auth.UserValidator.validateUsername(UserValidator.java:42)
+    at com.example.auth.LoginService.authenticate(LoginService.java:85)
+    at com.example.MainApp.main(MainApp.java:14)
+    at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+    at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+    at java.base/java.lang.Thread.run(Thread.java:829)
+2025-04-21 10:48:12,001 ERROR [com.example.file.FileReader] - Failed to read configuration file
+java.io.IOException: Failed to open file '/etc/app/config.yml'
+    at com.example.file.FileReader.load(FileReader.java:56)
+    at com.example.file.FileManager.initialize(FileManager.java:30)
+    at com.example.MainApp.init(MainApp.java:22)
+2025-04-21 10:49:45,334 ERROR [com.example.db.ConnectionPool] - Could not establish database connection
+java.sql.SQLException: Connection refused: connect
+    at com.example.db.DatabaseConnector.getConnection(DatabaseConnector.java:73)
+    at com.example.auth.LoginService.authenticate(LoginService.java:78)
+    at com.example.MainApp.main(MainApp.java:14)
+    at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+    at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+    at java.base/java.lang.Thread.run(Thread.java:829)

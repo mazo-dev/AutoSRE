@@ -1,0 +1,5 @@
+2025-04-21 10:48:12,001 ERROR [com.example.file.FileReader] - Failed to read configuration file
+java.io.IOException: Failed to open file '/etc/app/config.yml'
+    at com.example.file.FileReader.load(FileReader.java:56)
+    at com.example.file.FileManager.initialize(FileManager.java:30)
+    at com.example.MainApp.init(MainApp.java:22)
