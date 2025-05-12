@@ -28,7 +28,7 @@ myenv/
 
 # Application-specific
 *_copy.py
-data/
+data/chroma_db/
 *.sqlite3
 
 # PyInstaller
