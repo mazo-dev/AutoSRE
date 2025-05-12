@@ -4,24 +4,24 @@
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔍 **LLM-Based Root Cause Analysis**
-- 📚 **Contextual Similar Incident Retrieval**
-- 💡 **Automated Resolution Suggestions**
-- ⚡ **Fast Local Inference with Ollama**
-- 🧩 **Modular Design with Streamlit UI**
+- **LLM-Based Root Cause Analysis**
+- **Contextual Similar Incident Retrieval**
+- **Automated Resolution Suggestions**
+- **Fast Local Inference with Ollama**
+- **Modular Design with Streamlit UI**
 
 ---
 
-## 🎯 Input & Output
+## Input & Output
 
 - **Input**: Incident Summary / Error / StackTrace
 - **Output**: Root Cause, Similar Incidents, Recommended Resolution
 
 ---
 
-## 🏗️ Architecture Design
+## Architecture Design
 ![AutoSRE Architecture](./images/AutoSRE_Architecture.png)
 ### 1. UI Layer (Frontend)
 
@@ -64,7 +64,7 @@
 
 ---
 
-## 🔁 Design Flow
+## Design Flow
 
 1. **User Input** via Streamlit UI
    - Incident summary, error, or stack trace
@@ -87,7 +87,7 @@
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 
