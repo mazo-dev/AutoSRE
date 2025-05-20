@@ -13,3 +13,4 @@ sentence-transformers
 streamlit
 langchain_huggingface
 huggingface_hub
+PyGithub

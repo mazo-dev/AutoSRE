@@ -89,7 +89,7 @@ st.title("🛠️ AutoSRE - Incident Analyzer")
 
 st.write("Analyze incidents, fetch similar past issues, and recommend resolutions automatically!")
 
-incident_summary = st.text_area("Enter Incident Summary:", height=200)
+incident_summary = st.text_area("Enter Incident Summary/Exception/Stacktrace:", height=200)
 
 if st.button("Analyze Incident"):
     if incident_summary.strip() == "":

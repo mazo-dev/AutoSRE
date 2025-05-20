@@ -1,4 +1,4 @@
-(myenv) PS C:\Applications\Workspace\AutoSRE> python .\src\auto_sre.py
+(myenv) PS C:\<YOUR-PROJECT-DIR>\AutoSRE> python .\src\auto_sre.py
 --------------------------------------------
 Enter incident summary:
 App crash after update
@@ -136,4 +136,4 @@ Based on my analysis, here are some effective resolution steps:
 
 By following these steps, you'll be able to identify the root cause of the app crash after update and develop an effective plan to resolve the issue.
 --------------------------------------------
-(myenv) PS C:\Applications\Workspace\AutoSRE>
+(myenv) PS C:\<YOUR-PROJECT-DIR>\AutoSRE>
