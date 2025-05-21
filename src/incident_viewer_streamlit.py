@@ -28,7 +28,7 @@ with st.sidebar:
     per_page = st.selectbox("Incidents per page", [5, 10, 20], index=1)
 
 # --- Search Feature with "debounce" ---
-search_query = st.text_input("🔎 Search incidents...", "")
+search_query = st.text_input("Search incidents...", "")
 
 if search_query:
     docs = [(doc_id, doc_text) for doc_id, doc_text in docs if search_query.lower() in doc_text.lower()]
@@ -105,4 +105,3 @@ if docs:
     )
 
 st.markdown("---")
-#st.caption("Built with using LangChain, Chroma, HuggingFace, and Streamlit.")
