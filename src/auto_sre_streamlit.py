@@ -115,4 +115,3 @@ if st.button("Analyze Incident"):
         st.write(resolution)
 
 st.markdown("---")
-#st.caption("Tools used:LangChain, Ollama, llama3,Chroma, HuggingFace, and Streamlit.")
