@@ -22,7 +22,7 @@
 ---
 
 ## Architecture Design
-images/AutoSRE_Architecture.png
+![Alt Text](images/AutoSRE_Architecture.png)
 ### 1. UI Layer (Frontend)
 
 - **Framework**: Streamlit
