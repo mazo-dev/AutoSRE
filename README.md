@@ -179,11 +179,5 @@ PS C:\YOUR-PROJECT-DIRECTORY\AutoSRE>streamlite run .\src\auto_sre_streamlit.py
 ```
 Enter the Incident summary /stacktrace / exception and click "Analyze Incident"
 
-### 9. Run the Application with CLI
-```bash
-PS C:\YOUR-PROJECT-DIRECTORY\AutoSRE>python .\src\auto_sre_cli.py
-```
-Paste the incident summary /stacktrace / exception and hit enter
-
 ### 9. Contact Information
 If you have any questions, feel free to [email me](mailto:mazodev@gmail.com).
